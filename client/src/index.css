@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(to bottom, #007683, #00c1bb);
+  min-height: 100vh;
+}
+.form-container {
+  background-color: #1d2c4f;
+}
+
+.form-container:before {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 5%;
+  width: 95%;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(10px);
+}
+
+.bg-custom {
+  background-color: #00f5e1;
+}
+
+.custom-button {
+  width: 250px;
+  height: 40px;
+}
+
+.custom-button:hover {
+  background-color: #48cae4;
+  color: #00919b;
+  transform: scale(1.1);
+}
+
+.custom-button:active {
+  background-color: #48cae4;
+  color: #00919b;
+}
+
+.input {
+  background-color: #4d5974;
+  color: #939eb8;
+  --placeholder-color: #939eb8;
+}
+
+.input::placeholder {
+  color: #939eb8;
+}
+
+.auth-link-text {
+  color: #008f92;
+  text-align: right;
+}
+
+.auth-link {
+  color: #00c1bb;
+  text-align: right;
+}
+
+.profile-icon {
+  position: relative;
+  bottom: 20px;
+  font-size: 100px;
+  color: #939eb8;
+}
+
+.sign-in {
+  width: 250px;
+  height: 80px;
+  padding: 10px;
+  color: #00919b;
+}
+
+.auth-btn {
+  color: #00919b;
+}
+
+.position {
+  position: relative;
+  bottom: 35px;
+}
