@@ -10,7 +10,7 @@
 
 Node will run the server.
 
-1. Open the client directory and run the React front-end,
+2. Open the client directory and run the React front-end,
 
 -> cd client
 
